@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-10-12",
+  "retrieved_at_utc": "2026-10-13T03:07:38.757346+00:00",
+  "fastf1_version": "3.8.3",
+  "rows": 3832,
+  "races": 190,
+  "latest_race": "Singapore Grand Prix",
+  "latest_date": "2026-10-11",
+  "next_race": "United States Grand Prix",
+  "next_date": "2026-10-25",
+  "endpoint": "FastF1 Ergast interface / api.jolpi.ca",
+  "roster_assumption": "Latest completed race entrants carried forward; provisional."
+}

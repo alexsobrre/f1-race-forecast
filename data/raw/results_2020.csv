@@ -1,0 +1,341 @@
+season,round,raceName,raceDate,circuitId,driverId,givenName,familyName,constructorId,constructorName,position,grid,status,points,laps
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,bottas,Valtteri,Bottas,mercedes,Mercedes,1,1,Finished,25.0,71
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,leclerc,Charles,Leclerc,ferrari,Ferrari,2,7,Finished,18.0,71
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,norris,Lando,Norris,mclaren,McLaren,3,3,Finished,16.0,71
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,hamilton,Lewis,Hamilton,mercedes,Mercedes,4,5,Finished,12.0,71
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,sainz,Carlos,Sainz,mclaren,McLaren,5,8,Finished,10.0,71
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,perez,Sergio,Pérez,racing_point,Racing Point,6,6,Finished,8.0,71
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,gasly,Pierre,Gasly,alphatauri,AlphaTauri,7,12,Finished,6.0,71
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,ocon,Esteban,Ocon,renault,Renault,8,14,Finished,4.0,71
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,9,18,Finished,2.0,71
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,vettel,Sebastian,Vettel,ferrari,Ferrari,10,11,Finished,1.0,71
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,latifi,Nicholas,Latifi,williams,Williams,11,20,Finished,0.0,71
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,12,13,Suspension,0.0,69
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,albon,Alexander,Albon,red_bull,Red Bull,13,4,Electronics,0.0,67
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,14,19,Wheel,0.0,53
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,russell,George,Russell,williams,Williams,15,17,Fuel pressure,0.0,49
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,grosjean,Romain,Grosjean,haas,Haas F1 Team,16,15,Brakes,0.0,49
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,17,16,Brakes,0.0,24
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,stroll,Lance,Stroll,racing_point,Racing Point,18,9,Engine,0.0,20
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,ricciardo,Daniel,Ricciardo,renault,Renault,19,10,Overheating,0.0,17
+2020,1,Austrian Grand Prix,2020-07-05,red_bull_ring,max_verstappen,Max,Verstappen,red_bull,Red Bull,20,2,Electronics,0.0,11
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,hamilton,Lewis,Hamilton,mercedes,Mercedes,1,1,Finished,25.0,71
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,bottas,Valtteri,Bottas,mercedes,Mercedes,2,4,Finished,18.0,71
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,max_verstappen,Max,Verstappen,red_bull,Red Bull,3,2,Finished,15.0,71
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,albon,Alexander,Albon,red_bull,Red Bull,4,6,Finished,12.0,71
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,norris,Lando,Norris,mclaren,McLaren,5,9,Finished,10.0,71
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,perez,Sergio,Pérez,racing_point,Racing Point,6,17,Finished,8.0,71
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,stroll,Lance,Stroll,racing_point,Racing Point,7,12,Finished,6.0,71
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,ricciardo,Daniel,Ricciardo,renault,Renault,8,8,Finished,4.0,71
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,sainz,Carlos,Sainz,mclaren,McLaren,9,3,+1 Lap,3.0,70
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,10,13,+1 Lap,1.0,70
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,11,16,+1 Lap,0.0,70
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,12,15,+1 Lap,0.0,70
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,grosjean,Romain,Grosjean,haas,Haas F1 Team,13,0,+1 Lap,0.0,70
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,14,19,+1 Lap,0.0,70
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,gasly,Pierre,Gasly,alphatauri,AlphaTauri,15,7,+1 Lap,0.0,70
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,russell,George,Russell,williams,Williams,16,11,+2 Laps,0.0,69
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,latifi,Nicholas,Latifi,williams,Williams,17,18,+2 Laps,0.0,69
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,ocon,Esteban,Ocon,renault,Renault,18,5,Overheating,0.0,25
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,leclerc,Charles,Leclerc,ferrari,Ferrari,19,14,Collision damage,0.0,4
+2020,2,Styrian Grand Prix,2020-07-12,red_bull_ring,vettel,Sebastian,Vettel,ferrari,Ferrari,20,10,Collision damage,0.0,1
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,hamilton,Lewis,Hamilton,mercedes,Mercedes,1,1,Finished,26.0,70
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,max_verstappen,Max,Verstappen,red_bull,Red Bull,2,7,Finished,18.0,70
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,bottas,Valtteri,Bottas,mercedes,Mercedes,3,2,Finished,15.0,70
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,stroll,Lance,Stroll,racing_point,Racing Point,4,3,Finished,12.0,70
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,albon,Alexander,Albon,red_bull,Red Bull,5,13,Finished,10.0,70
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,vettel,Sebastian,Vettel,ferrari,Ferrari,6,5,+1 Lap,8.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,perez,Sergio,Pérez,racing_point,Racing Point,7,4,+1 Lap,6.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,ricciardo,Daniel,Ricciardo,renault,Renault,8,11,+1 Lap,4.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,sainz,Carlos,Sainz,mclaren,McLaren,9,9,+1 Lap,2.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,10,0,+1 Lap,1.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,leclerc,Charles,Leclerc,ferrari,Ferrari,11,6,+1 Lap,0.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,12,17,+1 Lap,0.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,norris,Lando,Norris,mclaren,McLaren,13,8,+1 Lap,0.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,ocon,Esteban,Ocon,renault,Renault,14,14,+1 Lap,0.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,15,20,+1 Lap,0.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,grosjean,Romain,Grosjean,haas,Haas F1 Team,16,0,+1 Lap,0.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,17,19,+1 Lap,0.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,russell,George,Russell,williams,Williams,18,12,+1 Lap,0.0,69
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,latifi,Nicholas,Latifi,williams,Williams,19,15,+5 Laps,0.0,65
+2020,3,Hungarian Grand Prix,2020-07-19,hungaroring,gasly,Pierre,Gasly,alphatauri,AlphaTauri,20,10,Engine,0.0,15
+2020,4,British Grand Prix,2020-08-02,silverstone,hamilton,Lewis,Hamilton,mercedes,Mercedes,1,1,Finished,25.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,max_verstappen,Max,Verstappen,red_bull,Red Bull,2,3,Finished,19.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,leclerc,Charles,Leclerc,ferrari,Ferrari,3,4,Finished,15.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,ricciardo,Daniel,Ricciardo,renault,Renault,4,8,Finished,12.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,norris,Lando,Norris,mclaren,McLaren,5,5,Finished,10.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,ocon,Esteban,Ocon,renault,Renault,6,9,Finished,8.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,gasly,Pierre,Gasly,alphatauri,AlphaTauri,7,11,Finished,6.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,albon,Alexander,Albon,red_bull,Red Bull,8,12,Finished,4.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,stroll,Lance,Stroll,racing_point,Racing Point,9,6,Finished,2.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,vettel,Sebastian,Vettel,ferrari,Ferrari,10,10,Finished,1.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,bottas,Valtteri,Bottas,mercedes,Mercedes,11,2,Finished,0.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,russell,George,Russell,williams,Williams,12,20,Finished,0.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,sainz,Carlos,Sainz,mclaren,McLaren,13,7,Finished,0.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,14,15,Finished,0.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,latifi,Nicholas,Latifi,williams,Williams,15,18,Finished,0.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,grosjean,Romain,Grosjean,haas,Haas F1 Team,16,17,Finished,0.0,52
+2020,4,British Grand Prix,2020-08-02,silverstone,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,17,16,+1 Lap,0.0,51
+2020,4,British Grand Prix,2020-08-02,silverstone,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,18,19,Accident,0.0,11
+2020,4,British Grand Prix,2020-08-02,silverstone,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,19,14,Collision,0.0,1
+2020,4,British Grand Prix,2020-08-02,silverstone,hulkenberg,Nico,Hülkenberg,racing_point,Racing Point,20,13,Power Unit,0.0,0
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,max_verstappen,Max,Verstappen,red_bull,Red Bull,1,4,Finished,25.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,hamilton,Lewis,Hamilton,mercedes,Mercedes,2,2,Finished,19.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,bottas,Valtteri,Bottas,mercedes,Mercedes,3,1,Finished,15.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,leclerc,Charles,Leclerc,ferrari,Ferrari,4,8,Finished,12.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,albon,Alexander,Albon,red_bull,Red Bull,5,9,Finished,10.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,stroll,Lance,Stroll,racing_point,Racing Point,6,6,Finished,8.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,hulkenberg,Nico,Hülkenberg,racing_point,Racing Point,7,3,Finished,6.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,ocon,Esteban,Ocon,renault,Renault,8,14,Finished,4.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,norris,Lando,Norris,mclaren,McLaren,9,10,Finished,2.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,10,16,Finished,1.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,gasly,Pierre,Gasly,alphatauri,AlphaTauri,11,7,Finished,0.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,vettel,Sebastian,Vettel,ferrari,Ferrari,12,11,Finished,0.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,sainz,Carlos,Sainz,mclaren,McLaren,13,12,Finished,0.0,52
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,ricciardo,Daniel,Ricciardo,renault,Renault,14,5,+1 Lap,0.0,51
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,15,20,+1 Lap,0.0,51
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,grosjean,Romain,Grosjean,haas,Haas F1 Team,16,13,+1 Lap,0.0,51
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,17,19,+1 Lap,0.0,51
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,russell,George,Russell,williams,Williams,18,15,+1 Lap,0.0,51
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,latifi,Nicholas,Latifi,williams,Williams,19,18,+1 Lap,0.0,51
+2020,5,70th Anniversary Grand Prix,2020-08-09,silverstone,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,20,17,Retired,0.0,43
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,hamilton,Lewis,Hamilton,mercedes,Mercedes,1,1,Finished,25.0,66
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,max_verstappen,Max,Verstappen,red_bull,Red Bull,2,3,Finished,18.0,66
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,bottas,Valtteri,Bottas,mercedes,Mercedes,3,2,Finished,16.0,66
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,stroll,Lance,Stroll,racing_point,Racing Point,4,5,+1 Lap,12.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,perez,Sergio,Pérez,racing_point,Racing Point,5,4,+1 Lap,10.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,sainz,Carlos,Sainz,mclaren,McLaren,6,7,+1 Lap,8.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,vettel,Sebastian,Vettel,ferrari,Ferrari,7,11,+1 Lap,6.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,albon,Alexander,Albon,red_bull,Red Bull,8,6,+1 Lap,4.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,gasly,Pierre,Gasly,alphatauri,AlphaTauri,9,10,+1 Lap,2.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,norris,Lando,Norris,mclaren,McLaren,10,8,+1 Lap,1.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,ricciardo,Daniel,Ricciardo,renault,Renault,11,13,+1 Lap,0.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,12,12,+1 Lap,0.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,ocon,Esteban,Ocon,renault,Renault,13,15,+1 Lap,0.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,14,14,+1 Lap,0.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,15,16,+1 Lap,0.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,16,20,+1 Lap,0.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,russell,George,Russell,williams,Williams,17,18,+1 Lap,0.0,65
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,latifi,Nicholas,Latifi,williams,Williams,18,19,+2 Laps,0.0,64
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,grosjean,Romain,Grosjean,haas,Haas F1 Team,19,17,+2 Laps,0.0,64
+2020,6,Spanish Grand Prix,2020-08-16,catalunya,leclerc,Charles,Leclerc,ferrari,Ferrari,20,9,Electronics,0.0,38
+2020,7,Belgian Grand Prix,2020-08-30,spa,hamilton,Lewis,Hamilton,mercedes,Mercedes,1,1,Finished,25.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,bottas,Valtteri,Bottas,mercedes,Mercedes,2,2,Finished,18.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,max_verstappen,Max,Verstappen,red_bull,Red Bull,3,3,Finished,15.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,ricciardo,Daniel,Ricciardo,renault,Renault,4,4,Finished,13.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,ocon,Esteban,Ocon,renault,Renault,5,6,Finished,10.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,albon,Alexander,Albon,red_bull,Red Bull,6,5,Finished,8.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,norris,Lando,Norris,mclaren,McLaren,7,10,Finished,6.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,gasly,Pierre,Gasly,alphatauri,AlphaTauri,8,12,Finished,4.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,stroll,Lance,Stroll,racing_point,Racing Point,9,9,Finished,2.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,perez,Sergio,Pérez,racing_point,Racing Point,10,8,Finished,1.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,11,11,Finished,0.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,12,16,Finished,0.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,vettel,Sebastian,Vettel,ferrari,Ferrari,13,14,Finished,0.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,leclerc,Charles,Leclerc,ferrari,Ferrari,14,13,Finished,0.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,grosjean,Romain,Grosjean,haas,Haas F1 Team,15,17,Finished,0.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,latifi,Nicholas,Latifi,williams,Williams,16,19,Finished,0.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,17,20,Finished,0.0,44
+2020,7,Belgian Grand Prix,2020-08-30,spa,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,18,18,Accident,0.0,9
+2020,7,Belgian Grand Prix,2020-08-30,spa,russell,George,Russell,williams,Williams,19,15,Debris,0.0,9
+2020,7,Belgian Grand Prix,2020-08-30,spa,sainz,Carlos,Sainz,mclaren,McLaren,20,7,Exhaust,0.0,0
+2020,8,Italian Grand Prix,2020-09-06,monza,gasly,Pierre,Gasly,alphatauri,AlphaTauri,1,10,Finished,25.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,sainz,Carlos,Sainz,mclaren,McLaren,2,3,Finished,18.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,stroll,Lance,Stroll,racing_point,Racing Point,3,8,Finished,15.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,norris,Lando,Norris,mclaren,McLaren,4,6,Finished,12.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,bottas,Valtteri,Bottas,mercedes,Mercedes,5,2,Finished,10.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,ricciardo,Daniel,Ricciardo,renault,Renault,6,7,Finished,8.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,hamilton,Lewis,Hamilton,mercedes,Mercedes,7,1,Finished,7.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,ocon,Esteban,Ocon,renault,Renault,8,12,Finished,4.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,9,11,Finished,2.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,perez,Sergio,Pérez,racing_point,Racing Point,10,4,Finished,1.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,latifi,Nicholas,Latifi,williams,Williams,11,20,Finished,0.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,grosjean,Romain,Grosjean,haas,Haas F1 Team,12,16,Finished,0.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,13,14,Finished,0.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,russell,George,Russell,williams,Williams,14,19,Finished,0.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,albon,Alexander,Albon,red_bull,Red Bull,15,9,Finished,0.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,16,18,Finished,0.0,53
+2020,8,Italian Grand Prix,2020-09-06,monza,max_verstappen,Max,Verstappen,red_bull,Red Bull,17,5,Power Unit,0.0,30
+2020,8,Italian Grand Prix,2020-09-06,monza,leclerc,Charles,Leclerc,ferrari,Ferrari,18,13,Accident,0.0,23
+2020,8,Italian Grand Prix,2020-09-06,monza,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,19,15,Power Unit,0.0,17
+2020,8,Italian Grand Prix,2020-09-06,monza,vettel,Sebastian,Vettel,ferrari,Ferrari,20,17,Brakes,0.0,6
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,hamilton,Lewis,Hamilton,mercedes,Mercedes,1,1,Finished,26.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,bottas,Valtteri,Bottas,mercedes,Mercedes,2,2,Finished,18.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,albon,Alexander,Albon,red_bull,Red Bull,3,4,Finished,15.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,ricciardo,Daniel,Ricciardo,renault,Renault,4,8,Finished,12.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,perez,Sergio,Pérez,racing_point,Racing Point,5,7,Finished,10.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,norris,Lando,Norris,mclaren,McLaren,6,11,Finished,8.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,7,12,Finished,6.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,leclerc,Charles,Leclerc,ferrari,Ferrari,8,5,Finished,4.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,9,13,Finished,2.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,vettel,Sebastian,Vettel,ferrari,Ferrari,10,14,Finished,1.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,russell,George,Russell,williams,Williams,11,18,Finished,0.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,grosjean,Romain,Grosjean,haas,Haas F1 Team,12,15,Finished,0.0,59
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,stroll,Lance,Stroll,racing_point,Racing Point,13,6,Puncture,0.0,42
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,ocon,Esteban,Ocon,renault,Renault,14,10,Brakes,0.0,7
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,latifi,Nicholas,Latifi,williams,Williams,15,19,Collision,0.0,6
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,16,20,Collision,0.0,5
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,17,17,Collision,0.0,5
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,sainz,Carlos,Sainz,mclaren,McLaren,18,9,Collision,0.0,5
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,max_verstappen,Max,Verstappen,red_bull,Red Bull,19,3,Collision,0.0,0
+2020,9,Tuscan Grand Prix,2020-09-13,mugello,gasly,Pierre,Gasly,alphatauri,AlphaTauri,20,16,Collision,0.0,0
+2020,10,Russian Grand Prix,2020-09-27,sochi,bottas,Valtteri,Bottas,mercedes,Mercedes,1,3,Finished,26.0,53
+2020,10,Russian Grand Prix,2020-09-27,sochi,max_verstappen,Max,Verstappen,red_bull,Red Bull,2,2,Finished,18.0,53
+2020,10,Russian Grand Prix,2020-09-27,sochi,hamilton,Lewis,Hamilton,mercedes,Mercedes,3,1,Finished,15.0,53
+2020,10,Russian Grand Prix,2020-09-27,sochi,perez,Sergio,Pérez,racing_point,Racing Point,4,4,Finished,12.0,53
+2020,10,Russian Grand Prix,2020-09-27,sochi,ricciardo,Daniel,Ricciardo,renault,Renault,5,5,Finished,10.0,53
+2020,10,Russian Grand Prix,2020-09-27,sochi,leclerc,Charles,Leclerc,ferrari,Ferrari,6,10,Finished,8.0,53
+2020,10,Russian Grand Prix,2020-09-27,sochi,ocon,Esteban,Ocon,renault,Renault,7,7,Finished,6.0,53
+2020,10,Russian Grand Prix,2020-09-27,sochi,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,8,11,Finished,4.0,53
+2020,10,Russian Grand Prix,2020-09-27,sochi,gasly,Pierre,Gasly,alphatauri,AlphaTauri,9,9,Finished,2.0,53
+2020,10,Russian Grand Prix,2020-09-27,sochi,albon,Alexander,Albon,red_bull,Red Bull,10,15,Finished,1.0,53
+2020,10,Russian Grand Prix,2020-09-27,sochi,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,11,17,+1 Lap,0.0,52
+2020,10,Russian Grand Prix,2020-09-27,sochi,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,12,18,+1 Lap,0.0,52
+2020,10,Russian Grand Prix,2020-09-27,sochi,vettel,Sebastian,Vettel,ferrari,Ferrari,13,14,+1 Lap,0.0,52
+2020,10,Russian Grand Prix,2020-09-27,sochi,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,14,19,+1 Lap,0.0,52
+2020,10,Russian Grand Prix,2020-09-27,sochi,norris,Lando,Norris,mclaren,McLaren,15,8,+1 Lap,0.0,52
+2020,10,Russian Grand Prix,2020-09-27,sochi,latifi,Nicholas,Latifi,williams,Williams,16,20,+1 Lap,0.0,52
+2020,10,Russian Grand Prix,2020-09-27,sochi,grosjean,Romain,Grosjean,haas,Haas F1 Team,17,16,+1 Lap,0.0,52
+2020,10,Russian Grand Prix,2020-09-27,sochi,russell,George,Russell,williams,Williams,18,13,+1 Lap,0.0,52
+2020,10,Russian Grand Prix,2020-09-27,sochi,sainz,Carlos,Sainz,mclaren,McLaren,19,6,Accident,0.0,0
+2020,10,Russian Grand Prix,2020-09-27,sochi,stroll,Lance,Stroll,racing_point,Racing Point,20,12,Collision,0.0,0
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,hamilton,Lewis,Hamilton,mercedes,Mercedes,1,2,Finished,25.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,max_verstappen,Max,Verstappen,red_bull,Red Bull,2,3,Finished,19.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,ricciardo,Daniel,Ricciardo,renault,Renault,3,6,Finished,15.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,perez,Sergio,Pérez,racing_point,Racing Point,4,9,Finished,12.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,sainz,Carlos,Sainz,mclaren,McLaren,5,10,Finished,10.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,gasly,Pierre,Gasly,alphatauri,AlphaTauri,6,12,Finished,8.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,leclerc,Charles,Leclerc,ferrari,Ferrari,7,4,Finished,6.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,hulkenberg,Nico,Hülkenberg,racing_point,Racing Point,8,20,Finished,4.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,grosjean,Romain,Grosjean,haas,Haas F1 Team,9,16,Finished,2.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,10,14,Finished,1.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,vettel,Sebastian,Vettel,ferrari,Ferrari,11,11,Finished,0.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,12,19,Finished,0.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,13,15,Finished,0.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,latifi,Nicholas,Latifi,williams,Williams,14,18,Finished,0.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,15,13,Finished,0.0,60
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,norris,Lando,Norris,mclaren,McLaren,16,8,Power Unit,0.0,42
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,albon,Alexander,Albon,red_bull,Red Bull,17,5,Radiator,0.0,23
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,ocon,Esteban,Ocon,renault,Renault,18,7,Gearbox,0.0,22
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,bottas,Valtteri,Bottas,mercedes,Mercedes,19,1,Power Unit,0.0,18
+2020,11,Eifel Grand Prix,2020-10-11,nurburgring,russell,George,Russell,williams,Williams,20,17,Collision,0.0,12
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,hamilton,Lewis,Hamilton,mercedes,Mercedes,1,1,Finished,26.0,66
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,bottas,Valtteri,Bottas,mercedes,Mercedes,2,2,Finished,18.0,66
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,max_verstappen,Max,Verstappen,red_bull,Red Bull,3,3,Finished,15.0,66
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,leclerc,Charles,Leclerc,ferrari,Ferrari,4,4,Finished,12.0,66
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,gasly,Pierre,Gasly,alphatauri,AlphaTauri,5,9,+1 Lap,10.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,sainz,Carlos,Sainz,mclaren,McLaren,6,7,+1 Lap,8.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,perez,Sergio,Pérez,racing_point,Racing Point,7,5,+1 Lap,6.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,ocon,Esteban,Ocon,renault,Renault,8,11,+1 Lap,4.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,ricciardo,Daniel,Ricciardo,renault,Renault,9,10,+1 Lap,2.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,vettel,Sebastian,Vettel,ferrari,Ferrari,10,15,+1 Lap,1.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,11,16,+1 Lap,0.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,albon,Alexander,Albon,red_bull,Red Bull,12,6,+1 Lap,0.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,norris,Lando,Norris,mclaren,McLaren,13,8,+1 Lap,0.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,russell,George,Russell,williams,Williams,14,14,+1 Lap,0.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,15,17,+1 Lap,0.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,16,19,+1 Lap,0.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,grosjean,Romain,Grosjean,haas,Haas F1 Team,17,18,+1 Lap,0.0,65
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,latifi,Nicholas,Latifi,williams,Williams,18,20,+2 Laps,0.0,64
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,19,13,+2 Laps,0.0,64
+2020,12,Portuguese Grand Prix,2020-10-25,portimao,stroll,Lance,Stroll,racing_point,Racing Point,20,12,Collision damage,0.0,51
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,hamilton,Lewis,Hamilton,mercedes,Mercedes,1,2,Finished,26.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,bottas,Valtteri,Bottas,mercedes,Mercedes,2,1,Finished,18.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,ricciardo,Daniel,Ricciardo,renault,Renault,3,5,Finished,15.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,4,8,Finished,12.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,leclerc,Charles,Leclerc,ferrari,Ferrari,5,7,Finished,10.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,perez,Sergio,Pérez,racing_point,Racing Point,6,11,Finished,8.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,sainz,Carlos,Sainz,mclaren,McLaren,7,10,Finished,6.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,norris,Lando,Norris,mclaren,McLaren,8,9,Finished,4.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,9,18,Finished,2.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,10,20,Finished,1.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,latifi,Nicholas,Latifi,williams,Williams,11,19,Finished,0.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,vettel,Sebastian,Vettel,ferrari,Ferrari,12,14,Finished,0.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,stroll,Lance,Stroll,racing_point,Racing Point,13,15,Finished,0.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,grosjean,Romain,Grosjean,haas,Haas F1 Team,14,16,Finished,0.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,albon,Alexander,Albon,red_bull,Red Bull,15,6,Finished,0.0,63
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,russell,George,Russell,williams,Williams,16,13,Accident,0.0,51
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,max_verstappen,Max,Verstappen,red_bull,Red Bull,17,3,Puncture,0.0,50
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,18,17,Illness,0.0,47
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,ocon,Esteban,Ocon,renault,Renault,19,12,Gearbox,0.0,27
+2020,13,Emilia Romagna Grand Prix,2020-11-01,imola,gasly,Pierre,Gasly,alphatauri,AlphaTauri,20,4,Water pressure,0.0,8
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,hamilton,Lewis,Hamilton,mercedes,Mercedes,1,6,Finished,25.0,58
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,perez,Sergio,Pérez,racing_point,Racing Point,2,3,Finished,18.0,58
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,vettel,Sebastian,Vettel,ferrari,Ferrari,3,11,Finished,15.0,58
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,leclerc,Charles,Leclerc,ferrari,Ferrari,4,12,Finished,12.0,58
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,sainz,Carlos,Sainz,mclaren,McLaren,5,15,Finished,10.0,58
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,max_verstappen,Max,Verstappen,red_bull,Red Bull,6,2,Finished,8.0,58
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,albon,Alexander,Albon,red_bull,Red Bull,7,4,Finished,6.0,58
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,norris,Lando,Norris,mclaren,McLaren,8,14,Finished,5.0,58
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,stroll,Lance,Stroll,racing_point,Racing Point,9,1,Finished,2.0,58
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,ricciardo,Daniel,Ricciardo,renault,Renault,10,5,Finished,1.0,58
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,ocon,Esteban,Ocon,renault,Renault,11,7,+1 Lap,0.0,57
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,12,16,+1 Lap,0.0,57
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,gasly,Pierre,Gasly,alphatauri,AlphaTauri,13,19,+1 Lap,0.0,57
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,bottas,Valtteri,Bottas,mercedes,Mercedes,14,9,+1 Lap,0.0,57
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,15,8,+1 Lap,0.0,57
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,russell,George,Russell,williams,Williams,16,0,+1 Lap,0.0,57
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,17,13,Withdrew,0.0,55
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,grosjean,Romain,Grosjean,haas,Haas F1 Team,18,17,Collision damage,0.0,49
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,latifi,Nicholas,Latifi,williams,Williams,19,0,Collision damage,0.0,39
+2020,14,Turkish Grand Prix,2020-11-15,istanbul,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,20,10,Gearbox,0.0,11
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,hamilton,Lewis,Hamilton,mercedes,Mercedes,1,1,Finished,25.0,57
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,max_verstappen,Max,Verstappen,red_bull,Red Bull,2,3,Finished,19.0,57
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,albon,Alexander,Albon,red_bull,Red Bull,3,4,Finished,15.0,57
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,norris,Lando,Norris,mclaren,McLaren,4,9,Finished,12.0,57
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,sainz,Carlos,Sainz,mclaren,McLaren,5,15,Finished,10.0,57
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,gasly,Pierre,Gasly,alphatauri,AlphaTauri,6,8,Finished,8.0,57
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,ricciardo,Daniel,Ricciardo,renault,Renault,7,6,Finished,6.0,57
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,bottas,Valtteri,Bottas,mercedes,Mercedes,8,2,Finished,4.0,57
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,ocon,Esteban,Ocon,renault,Renault,9,7,Finished,2.0,57
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,leclerc,Charles,Leclerc,ferrari,Ferrari,10,12,+1 Lap,1.0,56
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,11,10,+1 Lap,0.0,56
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,russell,George,Russell,williams,Williams,12,14,+1 Lap,0.0,56
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,vettel,Sebastian,Vettel,ferrari,Ferrari,13,11,+1 Lap,0.0,56
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,latifi,Nicholas,Latifi,williams,Williams,14,20,+1 Lap,0.0,56
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,15,17,+1 Lap,0.0,56
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,16,16,+1 Lap,0.0,56
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,17,18,+1 Lap,0.0,56
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,perez,Sergio,Pérez,racing_point,Racing Point,18,5,Engine,0.0,53
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,stroll,Lance,Stroll,racing_point,Racing Point,19,13,Collision,0.0,2
+2020,15,Bahrain Grand Prix,2020-11-29,bahrain,grosjean,Romain,Grosjean,haas,Haas F1 Team,20,19,Collision,0.0,0
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,perez,Sergio,Pérez,racing_point,Racing Point,1,5,Finished,25.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,ocon,Esteban,Ocon,renault,Renault,2,11,Finished,18.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,stroll,Lance,Stroll,racing_point,Racing Point,3,10,Finished,15.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,sainz,Carlos,Sainz,mclaren,McLaren,4,8,Finished,12.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,ricciardo,Daniel,Ricciardo,renault,Renault,5,7,Finished,10.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,albon,Alexander,Albon,red_bull,Red Bull,6,12,Finished,8.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,7,6,Finished,6.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,bottas,Valtteri,Bottas,mercedes,Mercedes,8,1,Finished,4.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,russell,George,Russell,mercedes,Mercedes,9,2,Finished,3.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,norris,Lando,Norris,mclaren,McLaren,10,19,Finished,1.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,gasly,Pierre,Gasly,alphatauri,AlphaTauri,11,9,Finished,0.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,vettel,Sebastian,Vettel,ferrari,Ferrari,12,13,Finished,0.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,13,14,Finished,0.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,14,18,Finished,0.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,15,15,Finished,0.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,aitken,Jack,Aitken,williams,Williams,16,17,Finished,0.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,pietro_fittipaldi,Pietro,Fittipaldi,haas,Haas F1 Team,17,20,Finished,0.0,87
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,latifi,Nicholas,Latifi,williams,Williams,18,16,Engine,0.0,52
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,max_verstappen,Max,Verstappen,red_bull,Red Bull,19,3,Accident,0.0,0
+2020,16,Sakhir Grand Prix,2020-12-06,bahrain,leclerc,Charles,Leclerc,ferrari,Ferrari,20,4,Collision,0.0,0
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,max_verstappen,Max,Verstappen,red_bull,Red Bull,1,1,Finished,25.0,55
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,bottas,Valtteri,Bottas,mercedes,Mercedes,2,2,Finished,18.0,55
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,hamilton,Lewis,Hamilton,mercedes,Mercedes,3,3,Finished,15.0,55
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,albon,Alexander,Albon,red_bull,Red Bull,4,5,Finished,12.0,55
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,norris,Lando,Norris,mclaren,McLaren,5,4,Finished,10.0,55
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,sainz,Carlos,Sainz,mclaren,McLaren,6,6,Finished,8.0,55
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,ricciardo,Daniel,Ricciardo,renault,Renault,7,11,Finished,7.0,55
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,gasly,Pierre,Gasly,alphatauri,AlphaTauri,8,9,Finished,4.0,55
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,ocon,Esteban,Ocon,renault,Renault,9,10,Finished,2.0,55
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,stroll,Lance,Stroll,racing_point,Racing Point,10,8,Finished,1.0,55
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,kvyat,Daniil,Kvyat,alphatauri,AlphaTauri,11,7,+1 Lap,0.0,54
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,raikkonen,Kimi,Räikkönen,alfa,Alfa Romeo,12,15,+1 Lap,0.0,54
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,leclerc,Charles,Leclerc,ferrari,Ferrari,13,12,+1 Lap,0.0,54
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,vettel,Sebastian,Vettel,ferrari,Ferrari,14,13,+1 Lap,0.0,54
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,russell,George,Russell,williams,Williams,15,16,+1 Lap,0.0,54
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,giovinazzi,Antonio,Giovinazzi,alfa,Alfa Romeo,16,14,+1 Lap,0.0,54
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,latifi,Nicholas,Latifi,williams,Williams,17,18,+1 Lap,0.0,54
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,kevin_magnussen,Kevin,Magnussen,haas,Haas F1 Team,18,20,+1 Lap,0.0,54
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,pietro_fittipaldi,Pietro,Fittipaldi,haas,Haas F1 Team,19,17,+2 Laps,0.0,53
+2020,17,Abu Dhabi Grand Prix,2020-12-13,yas_marina,perez,Sergio,Pérez,racing_point,Racing Point,20,19,Transmission,0.0,8

@@ -1,0 +1,43 @@
+{
+  "manifest": {
+    "as_of": "2026-10-12",
+    "retrieved_at_utc": "2026-10-13T03:07:38.757346+00:00",
+    "fastf1_version": "3.8.3",
+    "rows": 3832,
+    "races": 190,
+    "latest_race": "Singapore Grand Prix",
+    "latest_date": "2026-10-11",
+    "next_race": "United States Grand Prix",
+    "next_date": "2026-10-25",
+    "endpoint": "FastF1 Ergast interface / api.jolpi.ca",
+    "roster_assumption": "Latest completed race entrants carried forward; provisional."
+  },
+  "selected_model": "Random forest",
+  "selection_period": 2024,
+  "primary_evaluation_period": 2025,
+  "best_baseline": "Recent podium form",
+  "primary_metrics": {
+    "season": 2025.0,
+    "races": 24.0,
+    "brier": 0.07453991866147817,
+    "log_loss": 0.2443526360325364,
+    "mean_podium_hits_of_3": 1.9583333333333333,
+    "exact_podium_set_rate": 0.125,
+    "average_precision": 0.6378624278470654,
+    "roc_auc": 0.9100464100464101
+  },
+  "brier_difference_vs_best_baseline": -0.008733937324822166,
+  "bootstrap": {
+    "season": 2025,
+    "selected": "Random forest",
+    "baseline": "Recent podium form",
+    "brier_difference": -0.008733937324822173,
+    "ci_low": -0.013725950231025361,
+    "ci_high": -0.0036048953924740297
+  },
+  "forecast_shortlist": [
+    "Andrea Kimi Antonelli",
+    "Max Verstappen",
+    "George Russell"
+  ]
+}

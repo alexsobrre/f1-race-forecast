@@ -1,0 +1,2 @@
+Raw race results and schedule are retrieved using FastF1 through Jolpica-F1. The manifest records cutoff and retrieval time. Season snapshots support offline reruns. Do not change the forecast cutoff without creating a new dated forecast. Respect the data providers’ terms when redistributing or publishing data; the software license is distinct from data rights.
+Sources: https://github.com/theOehrly/Fast-F1 and https://github.com/jolpica/jolpica-f1

@@ -1,0 +1,3 @@
+season,selected,baseline,brier_difference,ci_low,ci_high
+2025,Random forest,Recent podium form,-0.008733937324822173,-0.013725950231025361,-0.0036048953924740297
+2025,Random forest,Team podium form,-0.015735959493338697,-0.02205508854537219,-0.009896158871741344
