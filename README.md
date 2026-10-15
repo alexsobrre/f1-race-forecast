@@ -1,5 +1,9 @@
 # Formula 1 Podium Forecast: Can Data Improve on Recent Form?
 
+## Abstract
+
+This project tests whether historical driver and team performance can improve predictions of who will finish on an F1 podium. In the 2025 backtest, the selected model averaged 1.96 correct podium picks out of three, compared with 1.71 for recent driver form, although its advantage was smaller in 2026. The recommendation is to publish forecasts before each race and evaluate them over time before treating the improvement as dependable.
+
 The last race gives fans an instinct about who looks strong. This project tests whether historical performance can turn that instinct into better **next-race podium probabilities**, using FastF1 and a chronological backtest.
 
 **Finding:** in the primary 2025 evaluation, Random forest averaged **1.96 correct podium picks out of three**, versus **1.71** for a recent-driver-form rule. Its Brier probability error was **0.075**, versus **0.083**—approximately **10.5% lower**. Paired race-bootstrap intervals supported lower probability error against both form baselines in this sample. This is evidence from a retrospective backtest, not a guarantee of future performance.
