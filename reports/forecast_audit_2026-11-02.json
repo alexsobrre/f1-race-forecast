@@ -1,0 +1,8 @@
+{
+  "created_on": "2026-11-02",
+  "original_cota_forecast_sha256": "cb1ea7839b4158dce75f4bee7580088ce9938cfc7fbc1adfdeb41c59d596ae98",
+  "mexico_information_cutoff": "2026-10-26",
+  "mexico_latest_training_race": "2026-10-25",
+  "method": "Original random forest selected on 2024, unchanged settings; latest previous race roster",
+  "limitation": "Current revised snapshots; historical reconstruction is not a contemporaneously issued forecast; no current-weekend practice, qualifying, sprint or weather"
+}

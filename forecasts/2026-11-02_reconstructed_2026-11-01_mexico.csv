@@ -1,0 +1,23 @@
+podium_likelihood_rank,driverId,driver,team,podium_probability,recent_form_probability,team_form_probability,forecast_as_of,created_on,forecast_status,race,race_date
+1,antonelli,Andrea Kimi Antonelli,Mercedes,0.6832555705470574,0.6103896103896104,0.4393939393939394,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+2,max_verstappen,Max Verstappen,Red Bull,0.6714387001864746,0.7532467532467532,0.5227272727272727,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+3,leclerc,Charles Leclerc,Ferrari,0.4606599300277094,0.3246753246753246,0.2727272727272727,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+4,hamilton,Lewis Hamilton,Ferrari,0.4138626697648379,0.18181818181818182,0.2727272727272727,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+5,russell,George Russell,Mercedes,0.38301024101365594,0.18181818181818182,0.4393939393939394,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+6,norris,Lando Norris,McLaren,0.3558068668302087,0.18181818181818182,0.10606060606060606,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+7,hadjar,Isack Hadjar,Red Bull,0.31701047887912515,0.18181818181818182,0.5227272727272727,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+8,piastri,Oscar Piastri,McLaren,0.15749578087862728,0.03896103896103896,0.10606060606060606,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+9,lawson,Liam Lawson,RB F1 Team,0.06940737354320636,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+10,gasly,Pierre Gasly,Alpine F1 Team,0.037473127064058254,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+11,hulkenberg,Nico Hülkenberg,Audi,0.02057773142648636,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+12,ocon,Esteban Ocon,Haas F1 Team,0.01915863763308635,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+13,arvid_lindblad,Arvid Lindblad,RB F1 Team,0.016572847458233498,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+14,bearman,Oliver Bearman,Haas F1 Team,0.014869843764490165,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+15,sainz,Carlos Sainz,Williams,0.01471741644033585,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+16,bortoleto,Gabriel Bortoleto,Audi,0.011063349796847121,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+17,colapinto,Franco Colapinto,Alpine F1 Team,0.01080789141463606,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+18,albon,Alexander Albon,Williams,0.010571447850801299,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+19,bottas,Valtteri Bottas,Cadillac F1 Team,0.008265269698185966,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+20,stroll,Lance Stroll,Aston Martin,0.007337383908210379,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+21,perez,Sergio Pérez,Cadillac F1 Team,0.007301276008713003,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01
+22,alonso,Fernando Alonso,Aston Martin,0.0071865535906022425,0.03896103896103896,0.022727272727272724,2026-10-26,2026-11-02,retrospective reconstruction; not issued before race,Mexico City Grand Prix,2026-11-01

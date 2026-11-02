@@ -1,14 +1,14 @@
 {
   "manifest": {
-    "as_of": "2026-10-12",
-    "retrieved_at_utc": "2026-10-13T03:07:38.757346+00:00",
+    "as_of": "2026-11-02",
+    "retrieved_at_utc": "2026-11-02T14:22:54.092400+00:00",
     "fastf1_version": "3.8.3",
-    "rows": 3832,
-    "races": 190,
-    "latest_race": "Singapore Grand Prix",
-    "latest_date": "2026-10-11",
-    "next_race": "United States Grand Prix",
-    "next_date": "2026-10-25",
+    "rows": 3876,
+    "races": 192,
+    "latest_race": "Mexico City Grand Prix",
+    "latest_date": "2026-11-01",
+    "next_race": "Brazilian Grand Prix",
+    "next_date": "2026-11-08",
     "endpoint": "FastF1 Ergast interface / api.jolpi.ca",
     "roster_assumption": "Latest completed race entrants carried forward; provisional."
   },
@@ -31,13 +31,48 @@
     "season": 2025,
     "selected": "Random forest",
     "baseline": "Recent podium form",
-    "brier_difference": -0.008733937324822173,
-    "ci_low": -0.013725950231025361,
-    "ci_high": -0.0036048953924740297
+    "brier_difference": -0.008733937324822175,
+    "ci_low": -0.013725950231025364,
+    "ci_high": -0.003604895392474031
   },
   "forecast_shortlist": [
-    "Andrea Kimi Antonelli",
     "Max Verstappen",
-    "George Russell"
-  ]
+    "Andrea Kimi Antonelli",
+    "Lewis Hamilton"
+  ],
+  "recent_race_evaluation": [
+    {
+      "edition": "cota_2026",
+      "race": "United States Grand Prix",
+      "race_date": "2026-10-25",
+      "forecast_status": "Preserved pre-race forecast",
+      "predicted_podium_shortlist": "Andrea Kimi Antonelli; Max Verstappen; George Russell",
+      "actual_podium": "Andrea Kimi Antonelli; Charles Leclerc; Max Verstappen",
+      "podium_hits_of_3": 2,
+      "brier": 0.060373380208727,
+      "brier_scope": "Forecast roster only; nonstarters scored as no podium; unforecast entrants excluded explicitly",
+      "unforecast_entrants": "",
+      "forecast_nonstarters": "",
+      "scored_drivers": 22,
+      "recent_form_brier": 0.0504300893911283,
+      "team_form_brier": 0.0783976124885216
+    },
+    {
+      "edition": "mexico_2026_reconstructed",
+      "race": "Mexico City Grand Prix",
+      "race_date": "2026-11-01",
+      "forecast_status": "Retrospective reconstruction created 2026-11-02",
+      "predicted_podium_shortlist": "Andrea Kimi Antonelli; Max Verstappen; Charles Leclerc",
+      "actual_podium": "Max Verstappen; Lewis Hamilton; Andrea Kimi Antonelli",
+      "podium_hits_of_3": 2,
+      "brier": 0.0532246635513786,
+      "brier_scope": "Forecast roster only; nonstarters scored as no podium; unforecast entrants excluded explicitly",
+      "unforecast_entrants": "ryo_hirakawa",
+      "forecast_nonstarters": "ocon",
+      "scored_drivers": 22,
+      "recent_form_brier": 0.0504300893911283,
+      "team_form_brier": 0.0746097337006428
+    }
+  ],
+  "forecast_type": "Prospective preweekend Brazil edition, created 2026-11-02"
 }

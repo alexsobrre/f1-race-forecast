@@ -8,6 +8,8 @@ The last race gives fans an instinct about who looks strong. This project tests 
 
 **Finding:** in the primary 2025 evaluation, Random forest averaged **1.96 correct podium picks out of three**, versus **1.71** for a recent-driver-form rule. Its Brier probability error was **0.075**, versus **0.083**—approximately **10.5% lower**. Paired race-bootstrap intervals supported lower probability error against both form baselines in this sample. This is evidence from a retrospective backtest, not a guarantee of future performance.
 
+**November 2 update:** COTA's saved forecast and a clearly labeled Mexico reconstruction are evaluated in section 9. The new prospective forecast is Brazil on November 8.
+
 ## 1. Define a forecast that can be tested
 
 The question is: **Can historical driver and team performance improve next-race podium forecasts beyond simple rules, and how reliable are those forecasts?**
@@ -16,9 +18,9 @@ The first edition forecasts before the race weekend. Each driver receives a podi
 
 ## 2. Collect and inspect historical races
 
-FastF1's Ergast interface retrieves race results from Jolpica-F1. This snapshot contains **3,832 driver-race rows across 190 races**, from 2018 through completed 2026 events. Sprint outcomes are excluded. The target is official classified position 1–3, including the source's treatment of non-finishers.
+FastF1's Ergast interface retrieves race results from Jolpica-F1. This snapshot contains **3,876 driver-race rows across 192 races**, from 2018 through completed 2026 events. Sprint outcomes are excluded. The target is official classified position 1–3, including the source's treatment of non-finishers.
 
-Pagination is handled explicitly, duplicate driver-race keys are checked, and every race must contain three podium finishers. Raw season snapshots and a provenance manifest support reproducibility. The most recent downloaded race is **Singapore Grand Prix on 2026-10-11**; the next scheduled race is **United States Grand Prix on 2026-10-25**. The cutoff is **2026-10-12**.
+Pagination is handled explicitly, duplicate driver-race keys are checked, and every race must contain three podium finishers. Raw season snapshots and a provenance manifest support reproducibility. The most recent downloaded race is **Mexico City Grand Prix on 2026-11-01**; the next scheduled race is **Brazilian Grand Prix on 2026-11-08**. The cutoff is **2026-11-02**.
 
 **Why this helps:** a forecast built on an incomplete or stale race table is unreliable before modeling begins. The pipeline refuses to produce a forecast if results for the latest scheduled completed race are missing.
 
@@ -76,25 +78,46 @@ Calibration compares predicted probabilities with observed podium frequencies in
 
 A frozen-fit permutation diagnostic trains through 2024 and evaluates 2025. Current-season podium frequency and previous starting-grid performance have the largest individual effects in that diagnostic. Correlated features share information; this is predictive contribution, not causal explanation. The notebook also displays races with the fewest correct picks, with actual podiums beside forecasts.
 
-In **17 completed 2026 races**, random forest averages **1.59 correct picks** and Brier **0.084**, versus 1.53 picks and 0.088 for recent form. The gain is smaller than in 2025. Its exact-set rate is **0%** in this current-season sample.
+In **19 completed 2026 races**, random forest averages **1.63 correct picks** and Brier **0.081**, versus **1.58** picks and **0.084** for recent form. Its exact-set rate is **0.0%**. These are rolling retrospective evaluations; section 9 separately scores saved forecast editions.
 
 **Interpretation:** historical success does not make the model dependable in every season. Changes in cars, teams, and drivers can weaken older relationships. The 2026 results are a diagnostic, not a reason to choose a different model after seeing the holdout.
 
 ## 8. Forecast the next race with a declared cutoff
 
-**Event:** United States Grand Prix, 2026-10-25. **Information cutoff:** 2026-10-12. Latest completed-race entrants and teams are carried forward provisionally; confirm the next entry list before interpreting this as a final field.
+**Event: Brazilian Grand Prix, November 8, 2026. Information cutoff: November 2, 2026.** The latest available race is Mexico City on November 1. The refreshed dataset has 3,876 driver-race observations across 192 races. The model and its 2024 selection rule remain unchanged; current-weekend practice, qualifying, sprint results, and weather are not inputs.
 
 | Podium-likelihood rank | Driver | Estimated podium probability |
 |---|---|---:|
-| 1 | Andrea Kimi Antonelli | 62.5% |
-| 2 | Max Verstappen | 61.7% |
-| 3 | George Russell | 41.4% |
-| 4 | Lando Norris | 39.9% |
-| 5 | Lewis Hamilton | 33.6% |
+| 1 | Max Verstappen | 73.4% |
+| 2 | Andrea Kimi Antonelli | 67.9% |
+| 3 | Lewis Hamilton | 39.4% |
+| 4 | Charles Leclerc | 38.8% |
+| 5 | George Russell | 36.8% |
 
 ![Next-race forecast](figures/next_race_forecast.png)
 
-These are independent marginal probability estimates. They are not forced to sum to three and do not constitute a coherent simulation of an entire race. The full table, including competing baseline estimates, is in [the dated forecast](forecasts/2026-10-12_preweekend_podium_forecast.csv).
+These are independent marginal podium probabilities, not an exact finishing-order forecast or a joint race simulation. They need not sum to three. The roster carries forward Mexico's entrants and teams provisionally; it needs verification before the next event. The [dated forecast](forecasts/2026-11-02_preweekend_podium_forecast.csv) is preserved separately from the October COTA edition.
+
+## 9. Score saved forecasts and label retrospective reconstructions
+
+Mexico on November 1 was the race immediately after COTA, not a separate additional race. The original [October 12 COTA forecast](forecasts/2026-10-12_preweekend_podium_forecast.csv) remains byte-for-byte unchanged. Its saved date provides a pre-race artifact. No corresponding pre-race Mexico forecast existed locally. The Mexico edition below was **created November 2 as a retrospective reconstruction**, using results through COTA on October 25 only. It must not be presented as a prediction actually issued before Mexico.
+
+| Race / edition | Predicted podium shortlist (unordered) | Actual podium in finishing order | Correct picks / 3 | Brier error ↓ |
+|---|---|---|---:|---:|
+| United States Grand Prix — saved pre-race | Andrea Kimi Antonelli; Max Verstappen; George Russell | Andrea Kimi Antonelli; Charles Leclerc; Max Verstappen | 2 | 0.0604 |
+| Mexico City Grand Prix — retrospective | Andrea Kimi Antonelli; Max Verstappen; Charles Leclerc | Max Verstappen; Lewis Hamilton; Andrea Kimi Antonelli | 2 | 0.0532 |
+
+Brier error is the average squared difference between a podium probability and the 0/1 outcome: lower is better. Correct-pick counts measure the three-driver shortlist, not finishing order. A single race is too little evidence for a model-accuracy claim.
+
+**United States Grand Prix:** random-forest Brier 0.0604; recent-driver-form 0.0504; team-form 0.0784. 
+
+**Mexico City Grand Prix:** random-forest Brier 0.0532; recent-driver-form 0.0504; team-form 0.0746. The carried-forward roster differs from the actual field: unforecast entrants **ryo_hirakawa**; forecast nonstarters **ocon**. All three Brier comparisons use the same 22 forecast drivers; nonstarters receive a no-podium outcome, while entrants with no forecast retain missing probabilities and are explicitly excluded. This is not a full-actual-field Brier score. The mismatch is a practical limitation of using the previous race roster, not a reason to silently replace a driver after seeing the outcome. 
+
+Across **19 completed 2026 races**, the rolling historical evaluation averages **1.63 correct picks out of three**, Brier **0.0813**, and **0.0%** exact podium sets. Recent-driver-form averages **1.58** picks with Brier **0.0841**. These rolling historical evaluations use each race's known participant rows and are distinct from scoring the provisional-roster saved forecast. No model settings were changed in response to these results.
+
+**Interpretation:** The recent-driver-form rule has lower Brier error than the random forest on both of these races, despite the forest’s modest advantage across the broader 2026 backtest. COTA provides a genuine check of an existing artifact; Mexico is an information-restricted backtest. The entrant mismatch makes roster verification a concrete next improvement. Continue preserving forecasts before each race and compare probability error and shortlist capture against the simple rules over many races.
+
+Audit trail: [race summary](reports/recent_race_evaluation.csv), [COTA driver scoring](reports/cota_2026_driver_evaluation.csv), [Mexico driver scoring](reports/mexico_2026_reconstructed_driver_evaluation.csv), [reconstructed Mexico forecast](forecasts/2026-11-02_reconstructed_2026-11-01_mexico.csv), and [cutoff and integrity audit](reports/forecast_audit_2026-11-02.json). Official results: [COTA](https://www.formula1.com/en/results/2026/races/1297/united-states/race-result), [Mexico](https://www.formula1.com/en/results/2026/races/1298/mexico/race-result). Schedule: [Formula 1](https://www.formula1.com/en/racing/2026).
 
 ## Conclusion: outcome and theoretical impact
 
@@ -102,7 +125,7 @@ These are independent marginal probability estimates. They are not forced to sum
 
 The theoretical value is a repeatable tool for fans and analysts to compare contenders, communicate uncertainty, and measure forecast quality instead of relying solely on the latest result. It could support richer race previews and explainable performance analysis. This project does not establish financial returns or guaranteed outcomes.
 
-The next meaningful test is to preserve the dated forecast before the event and score it afterward without changing the original predictions. Repeating that process across races would show whether the backtest advantage survives real use. Future extensions include verified entry lists, a separate post-qualifying model, recency/regulation sensitivity, calibrated probabilities validated chronologically, and a jointly coherent ranking model.
+COTA now supplies one scored pre-race artifact. The next prospective test is the saved Brazil edition: score it after the event without changing its original predictions. Repeating that process across races would show whether the backtest advantage survives real use. Future extensions include verified entry lists, a separate post-qualifying model, recency/regulation sensitivity, calibrated probabilities validated chronologically, and a jointly coherent ranking model.
 
 ## Reproduce
 
@@ -130,4 +153,4 @@ Changing the cutoff and refreshing data creates a new forecasting run. Archive e
 
 [FastF1](https://github.com/theOehrly/Fast-F1) accesses data through [Jolpica-F1](https://github.com/jolpica/jolpica-f1). [Official Formula 1 calendar](https://www.formula1.com/en/racing/2026). Software licensing and source-data rights are distinct; consult provider terms before redistributing source datasets.
 
-Limitations include a small number of independent races, retrospectively designed evaluation, historical entrant/field-size proxies, provisional future entrants, structural changes across seasons, and missing current-weekend conditions. Telemetry and current qualifying are intentionally outside this first forecast. This repository publishes the analysis and dated forecast; no live forecasting service is deployed.
+Limitations include a small number of independent races, retrospectively designed evaluation, historical entrant/field-size proxies, provisional future entrants, structural changes across seasons, and missing current-weekend conditions. Telemetry and current qualifying are intentionally outside this first forecast. The repository presents analysis and forecasts, not a deployed prediction service.

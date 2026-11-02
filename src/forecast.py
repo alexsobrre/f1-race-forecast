@@ -1,6 +1,7 @@
 """Race-level, chronological F1 podium forecasting through FastF1/Jolpica."""
 from pathlib import Path
 import json
+import os
 import time
 from collections import defaultdict
 import numpy as np
@@ -15,7 +16,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import brier_score_loss, log_loss, average_precision_score, roc_auc_score
 
 ROOT = Path(__file__).resolve().parents[1]
-AS_OF = '2026-10-12'
+AS_OF = os.environ.get('F1_AS_OF', '2026-11-02')
 SEED = 42
 FEATURES = ['driver_finish5', 'driver_grid5', 'driver_podium5', 'driver_completion5',
             'team_finish10', 'team_podium10', 'season_podium', 'circuit_finish3',
@@ -28,18 +29,19 @@ def setup():
     fastf1.Cache.enable_cache(str(ROOT / 'cache'))
 
 
-def download(refresh=False):
+def download(refresh=False, refresh_current=False):
     """Cache season-level records and paginate; do not silently accept partial races."""
     setup()
     api = Ergast(limit=1000)
     all_results = []
     for season in range(2018, 2027):
         target = ROOT / f'data/raw/results_{season}.csv'
-        if target.exists() and not refresh:
+        if target.exists() and not refresh and not (refresh_current and season == pd.Timestamp(AS_OF).year):
             frame = pd.read_csv(target)
         else:
             parts = []
-            response = api.get_race_results(season=season)
+            with fastf1.Cache.disabled():
+                response = api.get_race_results(season=season)
             expected = response.total_results
             count = 0
             while True:
@@ -53,7 +55,8 @@ def download(refresh=False):
                 if count >= expected:
                     break
                 time.sleep(.4)
-                response = response.get_next_result_page()
+                with fastf1.Cache.disabled():
+                    response = response.get_next_result_page()
             frame = pd.concat(parts, ignore_index=True)
             assert len(frame) == expected, (season, len(frame), expected)
             columns = ['season', 'round', 'raceName', 'raceDate', 'circuitId', 'driverId',
@@ -73,10 +76,11 @@ def download(refresh=False):
     assert podium_counts.eq(3).all(), 'Source race has incomplete podium results'
     data = data.sort_values(['raceDate', 'season', 'round', 'position']).reset_index(drop=True)
     schedule_path = ROOT / 'data/raw/schedule_2026.csv'
-    if schedule_path.exists() and not refresh:
+    if schedule_path.exists() and not refresh and not refresh_current:
         schedule = pd.read_csv(schedule_path)
     else:
-        schedule = api.get_race_schedule(season=2026)
+        with fastf1.Cache.disabled():
+            schedule = api.get_race_schedule(season=2026)
         schedule.to_csv(schedule_path, index=False)
     schedule['raceDate'] = pd.to_datetime(schedule.raceDate)
     future = schedule[schedule.raceDate > pd.Timestamp(AS_OF)].sort_values('raceDate')

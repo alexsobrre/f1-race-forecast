@@ -6,6 +6,6 @@ The largest individual permutation effect in the frozen-fit diagnostic belongs t
 
 The theoretical value is a reproducible way for fans and analysts to move from intuition to explicit probabilities, compare contenders, and track forecast quality over time. The contribution is strongest when a forecast improves on a simple rule, remains calibrated, and is published before the outcome. No revenue, betting profit, or guaranteed racing outcome is established.
 
-The next forecast is for **United States Grand Prix on 2026-10-25**. Its shortlist is **Andrea Kimi Antonelli, Max Verstappen, George Russell**. These are contenders ranked by estimated podium likelihood, not a prediction of the exact podium order. The roster is provisional and the probabilities omit upcoming-weekend information.
+The next forecast is for **Brazilian Grand Prix on 2026-11-08**. Its shortlist is **Max Verstappen, Andrea Kimi Antonelli, Lewis Hamilton**. These are contenders ranked by estimated podium likelihood, not a prediction of the exact podium order. The roster is provisional and the probabilities omit upcoming-weekend information.
 
 The next step is to preserve this dated forecast before the race and score it afterward without rewriting the predictions. Over multiple prospective races, that record can show whether retrospective findings survive real use. Future work: a separate post-qualifying edition, verified entrant lists, recency weighting/regime sensitivity, race-level calibration validation, and a coherent ranking model.

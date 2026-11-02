@@ -373,3 +373,47 @@ season,round,raceName,raceDate,circuitId,driverId,givenName,familyName,construct
 2026,17,Singapore Grand Prix,2026-10-11,marina_bay,stroll,Lance,Stroll,aston_martin,Aston Martin,20,21,Retired,0.0,36
 2026,17,Singapore Grand Prix,2026-10-11,marina_bay,colapinto,Franco,Colapinto,alpine,Alpine F1 Team,21,15,Retired,0.0,29
 2026,17,Singapore Grand Prix,2026-10-11,marina_bay,bortoleto,Gabriel,Bortoleto,audi,Audi,22,14,Retired,0.0,7
+2026,18,United States Grand Prix,2026-10-25,americas,antonelli,Andrea Kimi,Antonelli,mercedes,Mercedes,1,1,Finished,25.0,56
+2026,18,United States Grand Prix,2026-10-25,americas,leclerc,Charles,Leclerc,ferrari,Ferrari,2,4,Finished,18.0,56
+2026,18,United States Grand Prix,2026-10-25,americas,max_verstappen,Max,Verstappen,red_bull,Red Bull,3,2,Finished,15.0,56
+2026,18,United States Grand Prix,2026-10-25,americas,hamilton,Lewis,Hamilton,ferrari,Ferrari,4,5,Finished,12.0,56
+2026,18,United States Grand Prix,2026-10-25,americas,norris,Lando,Norris,mclaren,McLaren,5,8,Finished,10.0,56
+2026,18,United States Grand Prix,2026-10-25,americas,hadjar,Isack,Hadjar,red_bull,Red Bull,6,3,Finished,8.0,56
+2026,18,United States Grand Prix,2026-10-25,americas,piastri,Oscar,Piastri,mclaren,McLaren,7,7,Finished,6.0,56
+2026,18,United States Grand Prix,2026-10-25,americas,russell,George,Russell,mercedes,Mercedes,8,6,Finished,4.0,56
+2026,18,United States Grand Prix,2026-10-25,americas,lawson,Liam,Lawson,rb,RB F1 Team,9,9,Finished,2.0,56
+2026,18,United States Grand Prix,2026-10-25,americas,gasly,Pierre,Gasly,alpine,Alpine F1 Team,10,10,Finished,1.0,56
+2026,18,United States Grand Prix,2026-10-25,americas,hulkenberg,Nico,Hülkenberg,audi,Audi,11,11,Finished,0.0,56
+2026,18,United States Grand Prix,2026-10-25,americas,arvid_lindblad,Arvid,Lindblad,rb,RB F1 Team,12,14,Lapped,0.0,55
+2026,18,United States Grand Prix,2026-10-25,americas,bortoleto,Gabriel,Bortoleto,audi,Audi,13,21,Lapped,0.0,55
+2026,18,United States Grand Prix,2026-10-25,americas,ocon,Esteban,Ocon,haas,Haas F1 Team,14,15,Lapped,0.0,55
+2026,18,United States Grand Prix,2026-10-25,americas,stroll,Lance,Stroll,aston_martin,Aston Martin,15,22,Lapped,0.0,55
+2026,18,United States Grand Prix,2026-10-25,americas,alonso,Fernando,Alonso,aston_martin,Aston Martin,16,12,Lapped,0.0,55
+2026,18,United States Grand Prix,2026-10-25,americas,albon,Alexander,Albon,williams,Williams,17,17,Lapped,0.0,55
+2026,18,United States Grand Prix,2026-10-25,americas,sainz,Carlos,Sainz,williams,Williams,18,16,Lapped,0.0,55
+2026,18,United States Grand Prix,2026-10-25,americas,perez,Sergio,Pérez,cadillac,Cadillac F1 Team,19,18,Lapped,0.0,55
+2026,18,United States Grand Prix,2026-10-25,americas,bottas,Valtteri,Bottas,cadillac,Cadillac F1 Team,20,19,Retired,0.0,48
+2026,18,United States Grand Prix,2026-10-25,americas,colapinto,Franco,Colapinto,alpine,Alpine F1 Team,21,20,Retired,0.0,35
+2026,18,United States Grand Prix,2026-10-25,americas,bearman,Oliver,Bearman,haas,Haas F1 Team,22,13,Retired,0.0,24
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,max_verstappen,Max,Verstappen,red_bull,Red Bull,1,5,Finished,25.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,hamilton,Lewis,Hamilton,ferrari,Ferrari,2,1,Finished,18.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,antonelli,Andrea Kimi,Antonelli,mercedes,Mercedes,3,4,Finished,15.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,leclerc,Charles,Leclerc,ferrari,Ferrari,4,3,Finished,12.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,norris,Lando,Norris,mclaren,McLaren,5,6,Finished,10.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,russell,George,Russell,mercedes,Mercedes,6,2,Finished,8.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,piastri,Oscar,Piastri,mclaren,McLaren,7,12,Finished,6.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,colapinto,Franco,Colapinto,alpine,Alpine F1 Team,8,11,Finished,4.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,lawson,Liam,Lawson,rb,RB F1 Team,9,22,Finished,2.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,gasly,Pierre,Gasly,alpine,Alpine F1 Team,10,9,Finished,1.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,bortoleto,Gabriel,Bortoleto,audi,Audi,11,13,Finished,0.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,hadjar,Isack,Hadjar,red_bull,Red Bull,12,7,Finished,0.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,ryo_hirakawa,Ryo,Hirakawa,haas,Haas F1 Team,13,18,Finished,0.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,albon,Alexander,Albon,williams,Williams,14,16,Finished,0.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,sainz,Carlos,Sainz,williams,Williams,15,15,Finished,0.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,hulkenberg,Nico,Hülkenberg,audi,Audi,16,10,Finished,0.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,perez,Sergio,Pérez,cadillac,Cadillac F1 Team,17,20,Finished,0.0,71
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,arvid_lindblad,Arvid,Lindblad,rb,RB F1 Team,18,8,Retired,0.0,58
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,bearman,Oliver,Bearman,haas,Haas F1 Team,19,14,Retired,0.0,47
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,bottas,Valtteri,Bottas,cadillac,Cadillac F1 Team,20,21,Retired,0.0,42
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,stroll,Lance,Stroll,aston_martin,Aston Martin,21,19,Retired,0.0,5
+2026,19,Mexico City Grand Prix,2026-11-01,rodriguez,alonso,Fernando,Alonso,aston_martin,Aston Martin,22,17,Retired,0.0,5
